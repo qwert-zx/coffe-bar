@@ -1,0 +1,52 @@
+.main .modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    transform: scale(0);
+    z-index: 99;
+}
+.main .modal.active {
+    transform: scale(1);
+}
+.main .modal__content {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #19161B;
+    width: 80vw;
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.blog .modal__content {
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+}
+.blog .modal__article_title {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    width: 60%;
+    margin: 0px auto;
+}  
+.blog .modal__article_discription {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #B8B8B8;
+    width: 40%;
+    margin: 0px auto;
+}
+.blog .modal__article_bcg {
+    width: 80%;
+    margin: 0px auto;
+}

@@ -1,0 +1,100 @@
+.blog .blog__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+} 
+.blog li {
+    display: flex;
+    width: 45%;
+    justify-content: flex-end;
+} 
+.blog li div {
+    display: flex;
+}
+.blog .about_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.blog .blog__article_autor {
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+.blog .autor__wrapper {
+    align-items: center;
+    gap: 20px;
+}
+.blog .article__wrapper {
+    flex-direction: column;
+    gap: 20px;
+    height: 70%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.blog .article__wrapper a:hover {
+    color: #FFB577;
+}
+.blog #autor1 {
+    height: 42px;
+    width: 42px;
+    background-image: url(../../images/article-autor-avatar.png);
+    background-size: contain;
+}
+.blog .autor__name {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.blog .blog__article_title {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 0.87;
+    text-transform: capitalize;
+}
+.blog .img_1, .img_2, .img_3, .img_4 {
+    background-size: cover;
+    height: 100%;
+}
+.blog .article__wrapper a {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+}
+.blog .article__wrapper a::after {
+    content: " \2192";
+    font-size: 26px;
+    font-weight: bold;
+}
+.blog .img_1 {
+    background-image: url(../../images/article-bcg-1.png);
+    width: 40%;
+}
+.blog .img_2 {
+    background-image: url(../../images/article-bcg-2.png);
+    width: 40%;
+}
+.blog .img_3 {
+    background-image: url(../../images/article-bcg-3.png);
+    width: 40%;
+}
+.blog .img_4 {
+    background-image: url(../../images/article-bcg-4.png);
+    width: 40%;
+}
+.blog__article_description {
+    display: none;
+}

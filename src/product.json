@@ -1,0 +1,12 @@
+[
+{"id": 1, "name": "Chicken Burger", "price": 6.25, "categories":"fastfood"},
+{"id": 2, "name": "Drp Cofee", "price": 2.85, "categories":"coffe"},
+{"id": 3, "name": "Coka Cola", "price": 1.58,	"categories":"coctails"},
+{"id": 4, "name": "Choco Cup Cake", "price": 4.85, "categories":"cake"},
+{"id": 5, "name": "Chowmin Noodle", "price": 8.85, "categories":"snacks"},
+{"id": 6, "name": "Fruit Salad", "price": 3.97, "categories":"snacks"},
+{"id": 7, "name": "Quafe Brade", "price": 7.85, "categories":"cake"},
+{"id": 8, "name": "Cocktail", "price": 8.85, "categories":"coctails"},
+{"id": 9, "name": "Dalgona Cofee", "price": 4.97, "categories":"coffe"},
+{"id": 10, "name": "French Fries", "price": 7.85, "categories":"fastfood"}
+]
