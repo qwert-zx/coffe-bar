@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.03c69d0f.css",
+    "main.js": "/static/js/main.a81d731f.js",
+    "static/media/bg-about-midle.png": "/static/media/bg-about-midle.51cc840f672deee0707d.png",
+    "static/media/article-bcg.png": "/static/media/article-bcg.5e7714b79203dda6a00b.png",
+    "static/media/headerimage.png": "/static/media/headerimage.1d8254e4db159556919e.png",
+    "static/media/story-image-1.png": "/static/media/story-image-1.0d835f69adf2d7881abd.png",
+    "static/media/know-more-image-2.png": "/static/media/know-more-image-2.3c69f7325a56543b80b8.png",
+    "static/media/know-more-image-4.png": "/static/media/know-more-image-4.1e64be6021ee21d61449.png",
+    "static/media/menu-8.png": "/static/media/menu-8.92820142a7e81f358709.png",
+    "static/media/contact-image-1.png": "/static/media/contact-image-1.905aa4fdc30b97a3bd64.png",
+    "static/media/know-more-image-1.png": "/static/media/know-more-image-1.ca38040415ed9acf14da.png",
+    "static/media/menu-10.png": "/static/media/menu-10.c40c16217fc28299a10b.png",
+    "static/media/menu-5.png": "/static/media/menu-5.3ece028a1cff825cbd51.png",
+    "static/media/know-more-image-3.png": "/static/media/know-more-image-3.3b154f6497beeca36ad9.png",
+    "static/media/menu-1.png": "/static/media/menu-1.dbc7accd44ca649b426a.png",
+    "static/media/contact-image-2.png": "/static/media/contact-image-2.6c83def71c7dbf3128db.png",
+    "static/media/menu-2.png": "/static/media/menu-2.0083324c6dba2a2882a7.png",
+    "static/media/menu-6.png": "/static/media/menu-6.3173201faeae10e63a6e.png",
+    "static/media/menu-3.png": "/static/media/menu-3.ab4f83854d82c4f2c881.png",
+    "static/media/menu-7.png": "/static/media/menu-7.afa9eb04cc835db841bd.png",
+    "static/media/menu-4.png": "/static/media/menu-4.1e063b42219053c923fa.png",
+    "static/media/menu-9.png": "/static/media/menu-9.cc0de145941589fc9be3.png",
+    "static/media/article-bcg-2.png": "/static/media/article-bcg-2.01067444ae248e388660.png",
+    "static/media/article-bcg-4.png": "/static/media/article-bcg-4.d27c1ec78621b0775b98.png",
+    "static/media/article-bcg-1.png": "/static/media/article-bcg-1.62fb969f38193800db57.png",
+    "static/media/article-bcg-3.png": "/static/media/article-bcg-3.097f05f42f9393444286.png",
+    "index.html": "/index.html",
+    "main.03c69d0f.css.map": "/static/css/main.03c69d0f.css.map",
+    "main.a81d731f.js.map": "/static/js/main.a81d731f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03c69d0f.css",
+    "static/js/main.a81d731f.js"
+  ]
+}
