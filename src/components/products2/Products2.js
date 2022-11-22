@@ -3,7 +3,7 @@ import Product from '../../product.json'
 
 export const ProductContext = React.createContext(Product);
 
-const Products2 = () => {  
+function Products2(){  
 
     const [sortedArr, setSortedArr] = useState(Product);   
 

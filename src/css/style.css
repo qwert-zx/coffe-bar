@@ -16,8 +16,9 @@
     background-color: #19161B;
 }
 .header {
-    width: 80%;
+    width: 100%;
     margin: auto;
+    padding-left: 10%;
     margin-bottom: 80px;
     display: flex;
     color: white;
@@ -26,6 +27,10 @@
     line-height: 24px;
     font-weight: 500;
     background-repeat: no-repeat;
+    position: sticky;
+    top: 0;
+    background-color: #19161B;
+    z-index: 1;
 }
 .home__header, .home__about, .about, .about__midle, .about__history, .about__bottom, .home__serving, .story, .home__menu, .home__quote, .home__blog, .maps__wrapper, .contacts, .blog {
     width: 80%;
@@ -393,7 +398,6 @@
 }
 .menu__sort {
     display: flex;
-    margin: 5%;
 }
 .menu__sort ul {
     display: flex;

@@ -1,7 +1,12 @@
 import React from "react";
-import { YMaps, Map } from '@pbe/react-yandex-maps';
+import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
 
 function Maps() {
+  const defaultState = {
+    center: [53.89706974885733,27.52791741534421],
+    zoom: 17,
+  };
+
 	return (
       
       <YMaps>
@@ -23,7 +28,12 @@ function Maps() {
               hey@yourdomain.com</span>
             </div>
           </div>
-          <Map className='maps' defaultState={{ center: [53.89706974885733,27.52791741534421], zoom: 17}} /> 
+          <Map className='maps' defaultState={defaultState} instanceRef={ref => { ref && ref.behaviors.disable('scrollZoom'); }} >
+            <Placemark geometry={defaultState.center} options={{
+                  preset: 'islands#dotIcon', // список темплейтов на сайте яндекса
+                  iconColor: '#FFB577', // цвет иконки, можно также задавать в hex
+                }}></Placemark>
+          </Map> 
         </div>
     
       </YMaps>

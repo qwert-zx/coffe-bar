@@ -5,7 +5,7 @@
     .main .btn {
         margin: auto;
     }
-    .main .home__header, .home__about, .home__serving, .home__menu, .about {
+    .main .home__header, .home__about, .home__serving, .home__menu {
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -21,7 +21,7 @@
         height: 25vh;
         margin-right: 32px;
     }
-    .home__header .home__header_title, .home__about .article__title, .home__serving .home__serving_title, .home__menu .home__menu_title, .contacts .contacts_wrapper h2 {
+    .home__header .home__header_title, .home__about .article__title, .home__serving .home__serving_title, .home__menu .home__menu_title {
         margin: 30px 0px;
         font-size: 26px;
         line-height: 36px;
@@ -94,7 +94,7 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .main .maps__wrapper .maps {
+    .maps__wrapper .maps {
         width: 100%;
         height: 25vh;
     }
@@ -116,55 +116,33 @@
     .menu__sort ul {
         flex-direction: column;
     }
-    .home__about_article {
-        width: 100%;
+    .main .about__midle { 
+        background-image: none; 
     }
-    .main .about__midle {
-        flex-direction: column;
-        background-image: none;
-    }
-    .main .about__history {
-        padding: 20px;
-    }
-    .about__midle_article {
-        padding: 0px;
-    }
-    .about__bottom_wrapper {
-        width: 100%;
-    }
-    .main .about__history_wrapper {
+    .about__history .about__history_wrapper {
         flex-direction: column;
     }
-    .about__midle h2 {
-        font-size: 34px;
-        line-height: 44px;
-    }
-    .about__midle p {
-        margin-right: 0px;
-    }
-  
-    .about__bottom {
-        flex-direction: column;
-        align-items: center; 
-    }
-    .story {
-        flex-direction: column;
-    }
-    .story .story__blck {
-        width: 100%;
-        margin-right: 0px;
-    }
-    .story .story__img {
+    .blog ul .img_1,  .blog ul .img_2,  .blog ul .img_3,  .blog ul .img_4 {
         display: none;
     }
-    .blog .img_1, .blog .img_2, .blog .img_3, .blog .img_4 {
-        display: none;
-    }
-    .blog li .blog__article_autor {
+    .blog ul .blog__article_autor {
         width: 100%;
     }
     .contacts .contacts_wrapper {
+        width: 100%;
         padding-right: 0px;
+    }
+    .contacts .contacts_wrapper h2 {
+        font-size: 32px;
+    }
+    .contacts .contacts__img {
+        display: none;
+    }
+    .contacts .contacts__form .contacts__form_input {
+        flex-direction: column;
+    }
+    .contacts .contacts__form_btn {
+        margin: auto;
     }
 }
 @media screen and (max-width: 800px) {
@@ -208,7 +186,7 @@
     .home__about, .home__serving, .home__menu {
         width: 90%;
         margin-bottom: 80px;
-        justify-content: space-between;
+        justify-content: center;
     }
     .home__about .home__about_article {
         width: 100%;
@@ -261,7 +239,7 @@
     }
     .home__quote .home__quote_right {
         width: 100%;
-        height: 50vh;
+        height: 25vh;
     }
     .home__quote .home_quote_left {
         width: 100%;
@@ -270,10 +248,11 @@
     .home__quote .home__quote_title {
         font-size: 56px;
         line-height: 62px;
+        padding-bottom: 32px;
     }
     .home__quote .home__quote_article {
-        font-size: 28px;
-        padding-bottom: 40px;
+        font-size: 18px;
+        line-height: 28px;
     }
     .maps__wrapper .maps__info {
         width: 100%;
@@ -324,6 +303,27 @@
     .about__bottom h3 {
         font-size: 18px;
     }
+    .home__about_article, .home__about_img {
+        width: 100%;
+    }
+    .about .home__about_img {
+    display: none;
+    }
+    .about__midle_article h2 {
+        font-size: 28px;
+    }
+    .about__midle .about__midle_article {
+        padding: 36px;
+    }
+    .main .about__history {
+        padding: 36px;
+    }
+    .about__bottom {
+        flex-direction: column;
+    }
+    .about__bottom .about__bottom_wrapper {
+        width: 100%;
+    }
     .story {
         flex-direction: column;
     }
@@ -331,35 +331,38 @@
         width: 100%;
         margin-right: 0px;
     }
-    .story .story__img {
+    .story .story__blck h2 {
+        font-size: 32px;
+        padding-bottom: 32px;
+    }
+    .story .story__blck img {
         display: none;
     }
-    .blog ul {
-        flex-direction: column;
+    .story .story__blck p {
+        padding-bottom: 32px;
     }
-    .blog .blog__wrapper li {
+    .blog h2 {
+        font-size: 32px;
+    }
+    .contacts .contacts_wrapper {
         width: 100%;
+        padding-right: 0px;
     }
-    .blog li .blog__article_autor {
-        width: 60%;
-    }
-    .main .contacts {
-        flex-direction: column;
-    }
-    .main .contacts .contacts_wrapper {
-        width: 100%;
-        margin-right: 0px;
+    .contacts .contacts_wrapper h2 {
+        font-size: 32px;
     }
     .contacts .contacts__img {
         display: none;
     }
+
 }
 @media screen and (max-width: 1023px) {
     .header {
         display: none;
     }
     body .burger__wrapper {
-        width: 80%;
+        width: 100%;
+        padding-left: 20px;
     }
     .home__header, .home__about, .home__menu, .home__quote, .maps__wrapper {
         margin-bottom: 80px;
@@ -373,7 +376,7 @@
         margin-top: 20px;
     }
     .home__about .home__about_article {
-        width: 70%;
+        width: 100%;
     }
     .home__about .home__about_img {
         background-position: center;
@@ -426,8 +429,11 @@
     .footer .nav {
         display: none;
     }
-    .main .contacts .contacts__img {
-        background-position: center, center;
+    .blog ul li {
+        width: 100%;
+    }
+    .contacts .contacts__img {
+        display: none;
     }
 }
 @media screen and (min-width: 1024px) {
@@ -472,7 +478,6 @@
         background-position: left 75%, right 25%;
     }
     .home__quote {
-        flex-direction: column;
         margin-top: 0px;
     }
     .home__quote .home_quote_left {
@@ -481,13 +486,6 @@
     }
     .home__quote .home__quote_right {
         width: 100%;
-    }
-    .story .story__img {
-        height: 100%;
-    }
-    .main .contacts .contacts__img {
-        background-size: 40%;
-        background-position: left 75%, right 25%;
     }
 }
 @media screen and (max-width: 1152px) {

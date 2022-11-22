@@ -61,6 +61,8 @@ function Articles() {
         )
     }, [])
 
+    console.log(items)
+
     function read(event){
       setModalTitle(event.target.closest('.article__wrapper').children[0].innerText)
       setModalArticle(event.target.closest('.article__wrapper').children[1].innerText)

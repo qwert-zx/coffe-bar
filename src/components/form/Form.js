@@ -3,7 +3,7 @@ import { useState, useRef } from 'react';
 import ReactTooltip from 'react-tooltip';
 import './form.css'
 
-const Form = () => {
+function Form() {
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');

@@ -50,7 +50,7 @@
 .contacts .contacts__img {
     background-image: url(/src/images/contact-image-1.png),
                       url(/src/images/contact-image-2.png);
-    background-position: 25% bottom, 75% top;
+    background-position: left bottom, right top;
     margin-left: 32px;
 }
 .contacts button {
