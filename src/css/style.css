@@ -227,7 +227,7 @@
 .home__serving_top {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     margin-bottom: 64px;
 }
 .home__serving_bottom {
@@ -381,7 +381,7 @@
     height: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .home__menu_bottom .dish {
     background-color: #1F1D21;

@@ -13,7 +13,7 @@ function Articles() {
 
     useEffect(() => {
       setStorage();
-    }, []);
+    });
   
     useEffect(() => {
       if (!items || items.length === 0)  {

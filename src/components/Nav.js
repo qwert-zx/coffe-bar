@@ -1,7 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
 
 function Nav() {
 
@@ -13,7 +11,7 @@ function Nav() {
 	return (
       <nav className="nav">
           <ul>
-              <li><NavLink to="/" onClick={ScrollToTop}>Home</NavLink></li>
+              <li><NavLink exact to="/" end onClick={ScrollToTop}>Home</NavLink></li>
               <li><NavLink to="/menu/" onClick={ScrollToTop}>Menu</NavLink></li>
               <li><NavLink to="/about/" onClick={ScrollToTop}>About Us</NavLink></li>
               <li><NavLink to="/story/" onClick={ScrollToTop}>Our Story</NavLink></li>
