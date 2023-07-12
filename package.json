@@ -2,7 +2,7 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://qwert-zx.github.io/",
+  "homepage": "https://qwert-zx.github.io/coffe-bar",
   "dependencies": {
     "@pbe/react-yandex-maps": "^1.2.1",
     "@testing-library/jest-dom": "^5.16.5",
