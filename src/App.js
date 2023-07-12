@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Burger from './components/burger/Burger';
 
 import Header from './components/headers/Header';
